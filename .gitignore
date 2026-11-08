@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+venv/
+windows_venv/
+env/
+ENV/
+
+# Python cache & compiled artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Video recordings
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large redundant archives (exceed GitHub's 100MB limit: Mimic.zip 224MB, Robots_handgesture.rar 162MB)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.tmp
+
+# IDE / Editor configuration
+.vscode/
+.idea/
